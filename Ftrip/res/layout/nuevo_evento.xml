@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/nombreEvento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:text="Nombre del evento"
+        >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/detallesEvento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:text="Detalles"
+        />
+
+    <EditText
+        android:id="@+id/ubicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:text="Ubicacion"
+        />
+
+    <DatePicker
+        android:id="@+id/fechaInicioEvento"
+        android:layout_width="wrap_content"
+        android:layout_height="186dp"
+        android:spinnersShown="true" />
+
+    <Button
+        android:id="@+id/crearEvento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CrearEvento" />
+   
+   <Button
+        android:id="@+id/seleccionarAmigos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecciona Amigos" />
+   
+</LinearLayout>

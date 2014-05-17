@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ftrip</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_id">274460706038178</string>
+    <string name="title_activity_swipe_view_ftrip">SwipeViewFtrip</string>
+
+</resources>
